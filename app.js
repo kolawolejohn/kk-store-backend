@@ -42,7 +42,7 @@ if ((process.env.NODE_ENV = 'development')) {
     app.use(cors({ origin: `http://localhost:3000` }))
 }
 if ((process.env.NODE_ENV = 'production')) {
-    app.use(cors({ origin: `https://gallery-app-client.herokuapp.com` }))
+    app.use(cors({ origin: `https://kk-store.herokuapp.com/` }))
 }
 
 //routes middleware
