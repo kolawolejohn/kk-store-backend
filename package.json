@@ -3,10 +3,6 @@
     "version": "1.0.0",
     "description": "discover the  world of ecommerce... here to serve you better",
     "main": "index.js",
-    "engines": {
-        "node": "v12.16.1",
-        "npm": "6.13.4"
-    },
     "scripts": {
         "start": "nodemon app.js"
     },
