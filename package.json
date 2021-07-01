@@ -1,5 +1,5 @@
 {
-    "name": "kk store",
+    "name": "kk-store-backend",
     "version": "1.0.0",
     "description": "discover the  world of ecommerce... here to serve you better",
     "main": "index.js",
