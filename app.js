@@ -39,7 +39,7 @@ app.use(cookieParser());
 app.use(expressValidator());
 app.use(cors())
 if ((process.env.NODE_ENV = 'development')) {
-    app.use(cors({ origin: `http://localhost:3000` }))
+    app.use(cors({ origin: `http://localhost:5000` }))
 }
 if ((process.env.NODE_ENV = 'production')) {
     app.use(cors({ origin: `https://kk-store.herokuapp.com` }))
